@@ -8,7 +8,7 @@ const App: React.FC = () => {
   const [pokemon, setPokemon] = useState<Pokemon[]>()
   let offset = 20
   useEffect(() => {
-    const handleScroll: EventListener = (e: Event): void => {
+    const handleScroll = (e: any): void => {
       if (
         window.innerHeight + parseInt(e.target.documentElement.scrollTop) + 1 >=
         parseInt(e.target.documentElement.scrollHeight)
