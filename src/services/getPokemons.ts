@@ -3,7 +3,7 @@ import { Pokemon } from '../types/PokemonType'
 
 const PokemonAPI = {
   getPokemonData: async () => {
-    const response = await axios.get('https://pokeapi.co/api/v2/pokemon?limit=30&offset=0')
+    const response = await axios.get('https://pokeapi.co/api/v2/pokemon?limit=20&offset=0')
     const pokemons = response.data.results
     const newPokemon: Pokemon[] = []
 
