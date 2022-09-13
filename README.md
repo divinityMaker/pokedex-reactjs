@@ -36,6 +36,8 @@ $ npm run dev
 ### Technologies
 
 - [Node.js](https://nodejs.org/en/)
+- [Vitejs](https://vitejs.dev)
+- [Eslint](https://eslint.org)
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Axios](https://www.npmjs.com/package/axios)
