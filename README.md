@@ -9,7 +9,7 @@
 - [ X ] Rest API using Axios
 - [ X ] Responsive design
 - [ X ] Infinite scrolling
-- [ X ] Pokemon type follows a colors list
+- [ X ] Pokemon types follows a color list
 - [   ] Proper lazyloading fallback
 
 ### Pre requirements
